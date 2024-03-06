@@ -18,9 +18,14 @@
     $score9 = 30;
     $score10 = 60;
 
-    echo ($score1+$score2+$score3+$score4+$score5+$score6+$score7+$score8+$score9+$score10)/10;
+    $total = $score1+$score2+$score3+$score4+$score5+$score6+$score7+$score8+$score9+$score10;
+
+    $average = $total/10;
+
+    echo $average;
+
     ?>
-    
+
 
   </p>
 </body>
