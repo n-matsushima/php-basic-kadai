@@ -16,7 +16,7 @@
           $this->price = $price;
         }
         public function show_price() {
-          return $this->price;
+          echo $this->price;
         }
         
         }
@@ -34,7 +34,7 @@
             $this->weight = $weight;
           }
           public function show_height() {
-            return $this->height;
+            echo $this->height;
           }
   
         }
