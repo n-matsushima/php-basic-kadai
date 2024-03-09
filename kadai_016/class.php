@@ -44,9 +44,9 @@
         echo '<br>';
         print_r($animal);
         echo '<br>';
-        echo $food->show_price();
+        $food->show_price();
         echo '<br>';
-        echo $animal->show_height();
+        $animal->show_height();
         
 
     ?>
